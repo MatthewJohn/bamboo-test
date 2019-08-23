@@ -1,0 +1,12 @@
+#!/bin/bash
+
+
+if [ -z "$1" ]
+then
+  echo "Please provide output file"
+fi
+
+if [ "x$2" == "" ]
+then
+  echo 'test' > $1
+fi
